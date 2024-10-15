@@ -56,6 +56,14 @@ The final end result should be a filled database, two working APIs, and an acces
   DB_PWD=your_database_password
   ```
 
+# Running the App
+To start the FastAPI application locally, run the following command:
+  ```bash
+  uvicorn app.run:app --reload --port 8013
+  ```
+
+The app will be accessible at http://127.0.0.1:8013.
+
 # Database Migrations
 Alembic is used for managing database migrations. Before running the application, you need to apply the database schema:
 
@@ -118,14 +126,6 @@ Alembic is used for managing database migrations. Before running the application
   1004,SportHealth,SYMPT0001,Patient Age,TRUE
   1104,MedStop,SYMPT0002,Fatigue,TRUE
   ```
-
-# Running the App
-To start the FastAPI application locally, run the following command:
-  ```bash
-  uvicorn app.run:app --reload --port 8013
-  ```
-
-The app will be accessible at http://127.0.0.1:8013.
 
 # Database Reset
 If you want to reset the database by dropping and recreating all tables before each run, the initialize_database function in run.py already handles this by calling:
