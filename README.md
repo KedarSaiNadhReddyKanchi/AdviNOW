@@ -33,13 +33,17 @@ The final end result should be a filled database, two working APIs, and an acces
   ```bash
   git clone https://github.com/KedarSaiNadhReddyKanchi/AdviNOW.git
   ```
-2. **Create a Virtual Environment (Optional)**:
+2. **Navigate into the code base**:
+  ```bash
+  cd AdviNow
+  ```
+3. **Create a Virtual Environment (Optional)**:
   ```bash
   python3 -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
   ```
 
-3. **Install the Dependencies: Install the required Python packages**:
+4. **Install the Dependencies: Install the required Python packages**:
   ```bash
   pip install -r requirements.txt
   ```
