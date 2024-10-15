@@ -32,7 +32,6 @@ The final end result should be a filled database, two working APIs, and an acces
 1. **Clone the Repository**:
   ```bash
   git clone https://github.com/KedarSaiNadhReddyKanchi/AdviNOW.git
-  cd interview-challenge-v2
   ```
 2. **Create a Virtual Environment (Optional)**:
   ```bash
