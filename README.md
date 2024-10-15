@@ -116,8 +116,8 @@ Alembic is used for managing database migrations. Before running the application
    - Symptom Code
    - Symptom Name
    - Symptom Diagnostic
-5. Used the CSV file - business_symptom_data present in the app/data directory for initial data load.
-6. For thge CSV Import Endpoint, I have created a new CSV file called - new_checking_data.csv which is also present in the app/data directory.
+5. ***Used the CSV file*** - business_symptom_data present in the app/data directory for initial data load.
+6. ***For thge CSV Import Endpoint***, I have created a new CSV file called - new_checking_data.csv which is also present in the app/data directory.
      - The data in this file is also similar to the data in the business_symptom_data.csv file.
      - The reason for creating this new file was to implement the flow where this data gets appended to the already present data in the database which was initially loaded from the business_symptom_data.csv file. 
 5. Example CSV Data:
