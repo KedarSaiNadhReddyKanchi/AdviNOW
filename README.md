@@ -34,7 +34,7 @@ The final end result should be a filled database, two working APIs, and an acces
   git clone https://github.com/KedarSaiNadhReddyKanchi/AdviNOW.git
   cd interview-challenge-v2
   ```
-2. **Create a Virtual Environment**:
+2. **Create a Virtual Environment (Optional)**:
   ```bash
   python3 -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -45,7 +45,7 @@ The final end result should be a filled database, two working APIs, and an acces
   pip install -r requirements.txt
   ```
 
-5. **Setup Environment Variables**: Create a .env file in the root of your project with your PostgreSQL database credentials:
+5. **Setup Environment Variables (Optional)**: Create a .env file in the root of your project with your PostgreSQL database credentials:
   ```bash
   DB_HOST=localhost
   DB_NAME=your_database_name
