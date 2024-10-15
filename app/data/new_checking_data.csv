@@ -1,0 +1,11 @@
+Business ID,Business Name,Symptom Code,Symptom Name,Symptom Diagnostic
+3001,HealthCarePro,SYMPT2001,Blood Pressure,TRUE
+3001,HealthCarePro,SYMPT2002,Heart Rate,TRUE
+4002,QuickMeds,SYMPT3001,Fever,FALSE
+4002,QuickMeds,SYMPT3004,Cough,TRUE
+5003,LifeCare,SYMPT4001,Back Pain,YES
+5003,LifeCare,SYMPT4002,Dizziness,TRUE
+3001,HealthCarePro,SYMPT2003,Chest Pain,FALSE
+4002,QuickMeds,SYMPT3005,Shortness of Breath,TRUE
+5003,LifeCare,SYMPT4003,Headache,TRUE
+5003,LifeCare,SYMPT4004,Joint Pain,NO
