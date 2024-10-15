@@ -45,7 +45,7 @@ The final end result should be a filled database, two working APIs, and an acces
 
 4. **Install the Dependencies: Install the required Python packages**:
   ```bash
-  pip install -r requirements.txt
+  pip install -r requirements/requirements.txt
   ```
 
 5. **Setup Environment Variables (Optional)**: Create a .env file in the root of your project with your PostgreSQL database credentials:
